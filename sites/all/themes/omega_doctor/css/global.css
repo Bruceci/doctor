@@ -82,7 +82,7 @@ a:link, a:visited{
    background-color: #fff;
    padding-top: 10px;
    margin-bottom: 100px;
-   	margin-top: 10px;
+   	margin-top: 14px;
     box-shadow: 2px 2px 1px #eee;
 }
 .health-articles-in-profile .row{
@@ -91,6 +91,10 @@ a:link, a:visited{
 }
 .health-articles-in-profile .last{
    border-bottom: none;
+  
+}
+.health-articles-in-profile .first{
+    padding-top: 20px;
   
 }
 .health-articles-in-profile .image{
