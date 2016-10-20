@@ -125,6 +125,7 @@ a:link, a:visited{
 .health-articles-in-profile .more-link a{
 	color: #aaa;
 	padding-right: 10px;
+	font-size: 1.1em;
 }
 #block-health-articles-in-profile{
 	position: relative;
