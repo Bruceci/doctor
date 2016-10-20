@@ -1,2 +1,119 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	font-family: "SimHei", "Microsoft YaHei", "STHeiti";
+	background-color: #ddd;
+}
+a:link, a:visited{
+	text-decoration: none
+}
+.container-12 .grid-12{
+	width: 100%!important;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* doctor profile header */
+.doctor-profile-header{
+   background-color: #fff;
+   padding: 28px 0 18px 0;
+}
+.doctor-profile-header .picture{
+	width: 22%;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+.doctor-profile-header .name-and-grade{
+   text-align: center;
+   font-size: 1.6em;
+   margin-top: .6em;
+   font-weight: 700;
+
+}
+.doctor-profile-header .name{
+	display: inline-block;
+
+}
+.doctor-profile-header .grade{
+    display: inline-block;
+}
+
+/* doctor profile main */
+.doctor-profile{
+
+}
+.doctor-profile .piece{
+	padding: 14px 6px;
+	background-color: #fff;
+	margin-top: 10px;
+    box-shadow: 2px 2px 1px #eee;
+}
+.doctor-profile label{
+	color: #000;
+	font-weight: 700;
+
+}
+.doctor-profile .field-content{
+    color: #777;
+    padding-top: .5em;
+}
+
+.doctor-profile .hospital-name{
+
+}
+.doctor-profile .skill{
+
+}
+.doctor-profile .info{
+
+}
+
+/* health articles in profile */
+
+.health-articles-in-profile{
+   background-color: #fff;
+   margin-bottom: 40px;
+}
+.health-articles-in-profile .row{
+  border-bottom: 1px solid  #ddd;
+  padding: 10px;
+}
+.health-articles-in-profile .last{
+   border-bottom: none;
+  
+}
+.health-articles-in-profile .image{
+
+
+}
+.health-articles-in-profile .image img{
+   border: 1px solid #fff;
+   border-radius: 6px;
+}
+.health-articles-in-profile .title-and-body{
+	padding-left: .6em;
+	box-sizing: border-box;
+}
+.health-articles-in-profile .title{
+
+}
+.health-articles-in-profile .title a{
+	color: #000;
+	font-weight: 700;
+}
+.health-articles-in-profile .body{
+    color: #777;
+    padding-top: .3em;
+    line-height: 1.2;
+}
+.health-articles-in-profile .more-link{
+	
+}
+
+

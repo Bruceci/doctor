@@ -27,6 +27,11 @@
  * @ingroup views_templates
  */
 ?>
+<?php if ($attachment_before): ?>
+    <div class="attachment attachment-before">
+      <?php print $attachment_before; ?>
+    </div>
+<?php endif; ?>
 <div class="<?php print $classes; ?>">
   <?php print render($title_prefix); ?>
   <?php if ($title): ?>
@@ -49,11 +54,7 @@
     </div>
   <?php endif; ?>
 
-  <?php if ($attachment_before): ?>
-    <div class="attachment attachment-before">
-      <?php print $attachment_before; ?>
-    </div>
-  <?php endif; ?>
+
 
   <?php if ($rows): ?>
     <div class="view-content">
@@ -69,11 +70,7 @@
     <?php print $pager; ?>
   <?php endif; ?>
 
-  <?php if ($attachment_after): ?>
-    <div class="attachment attachment-after">
-      <?php print $attachment_after; ?>
-    </div>
-  <?php endif; ?>
+
 
 
   <?php if ($footer): ?>
@@ -88,4 +85,10 @@
     </div>
   <?php endif; ?>
 
-</div><?php /* class view */ ?>
+</div>
+
+ <?php if ($attachment_after): ?>
+    <div class="attachment attachment-after">
+      <?php print $attachment_after; ?>
+    </div>
+ <?php endif; ?><?php /* class view */ ?>
