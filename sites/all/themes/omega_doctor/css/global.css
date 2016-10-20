@@ -23,7 +23,7 @@ a:link, a:visited{
    padding: 28px 0 18px 0;
 }
 .doctor-profile-header .picture{
-	width: 22%;
+	width: 23%;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -57,11 +57,13 @@ a:link, a:visited{
 .doctor-profile label{
 	color: #000;
 	font-weight: 700;
+	font-size: 1.2em;
 
 }
 .doctor-profile .field-content{
     color: #777;
     padding-top: .5em;
+    font-size: 1.2em;
 }
 
 .doctor-profile .hospital-name{
@@ -78,7 +80,10 @@ a:link, a:visited{
 
 .health-articles-in-profile{
    background-color: #fff;
+   padding-top: 10px;
    margin-bottom: 100px;
+   	margin-top: 10px;
+    box-shadow: 2px 2px 1px #eee;
 }
 .health-articles-in-profile .row{
   border-bottom: 1px solid  #ddd;
@@ -101,19 +106,37 @@ a:link, a:visited{
 	box-sizing: border-box;
 }
 .health-articles-in-profile .title{
-
+     
 }
 .health-articles-in-profile .title a{
 	color: #000;
 	font-weight: 700;
+	font-size: 1.2em;
 }
 .health-articles-in-profile .body{
     color: #777;
     padding-top: .3em;
     line-height: 1.2;
+    font-size: 1.2em;
 }
 .health-articles-in-profile .more-link{
 	
+}
+.health-articles-in-profile .more-link a{
+	color: #aaa;
+	padding-right: 10px;
+}
+#block-health-articles-in-profile{
+	position: relative;
+}
+#block-health-articles-in-profile .pane-title{
+	position: absolute;
+	top: 8px;
+	z-index: 10;
+	font-size: 1.2em;
+	margin-left: .6em ;
+	padding-left: 20px;
+	background: url('../img/t_hi.png') scroll no-repeat 3px center transparent;
 }
 
 
