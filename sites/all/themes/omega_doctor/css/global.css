@@ -23,7 +23,7 @@ a:link, a:visited{
    padding: 28px 0 18px 0;
 }
 .doctor-profile-header .picture{
-	width: 23%;
+	width: 25%;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -116,8 +116,8 @@ a:link, a:visited{
 .health-articles-in-profile .body{
     color: #777;
     padding-top: .2em;
-    line-height: 1;
-    font-size: 1.2em;
+    line-height: 1.3em;
+    font-size: 1.1em;
 }
 .health-articles-in-profile .more-link{
 	
