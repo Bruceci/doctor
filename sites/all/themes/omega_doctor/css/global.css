@@ -87,7 +87,7 @@ a:link, a:visited{
 }
 .health-articles-in-profile .row{
   border-bottom: 1px solid  #ddd;
-  padding: 10px;
+  padding: 14px 10px;
 }
 .health-articles-in-profile .last{
    border-bottom: none;
@@ -115,8 +115,8 @@ a:link, a:visited{
 }
 .health-articles-in-profile .body{
     color: #777;
-    padding-top: .3em;
-    line-height: 1.2;
+    padding-top: .2em;
+    line-height: 1;
     font-size: 1.2em;
 }
 .health-articles-in-profile .more-link{
