@@ -131,7 +131,7 @@ a:link, a:visited{
 }
 #block-health-articles-in-profile .pane-title{
 	position: absolute;
-	top: 8px;
+	top: 10px;
 	z-index: 10;
 	font-size: 1.2em;
 	margin-left: .6em ;
