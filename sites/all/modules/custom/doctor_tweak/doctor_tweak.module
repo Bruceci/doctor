@@ -1,0 +1,10 @@
+<?php
+
+/**
+* Implements hook_page_alter().
+*/
+function doctor_tweak_user_view($account, $view_mode, $language){
+   if($view_mode == 'full'){
+    drupal_add_js(drupal_get_path('module', 'doctor_tweak') . '/js/weixin.js');
+   }
+}
