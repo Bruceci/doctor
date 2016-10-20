@@ -1,7 +1,5 @@
 (function($){
     $(function(){
-        $flowBar = $('<div></div>').addClass('flow-bar');
-        $('body').append($flowBar);
 
 
     });

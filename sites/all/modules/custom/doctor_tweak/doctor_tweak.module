@@ -18,6 +18,7 @@ function doctor_tweak_block_info(){
   $blocks['flow_bar'] = array(
   	'info' => t('Flow bar'),
   	'cache' => DRUPAL_NO_CACHE,
+  
   );
 
   return $blocks;
@@ -30,9 +31,10 @@ function doctor_tweak_block_view($delta){
   $block = array();
   switch($delta){
   	case 'flow_bar':
+    $img_url = url(drupal_get_path('module', 'doctor_tweak') . '/img/dlapp_bg.png');
   	$block['subject'] = '';
   	$block['content'] = array(
-       '#markup' => '<div>helll</div>',
+       '#markup' => '<div id="app_download"><span id="dl_close">x</span><span id="dl_bg"><img src="' . $img_url .'"/></span><span id="dl_dl"><a href="#">Download</a></span></div>',
        '#attached' => array(
        	  'css' => array(
        	  	 drupal_get_path('module', 'doctor_tweak') . '/css/flow_bar.css',

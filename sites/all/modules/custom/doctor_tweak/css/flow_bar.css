@@ -1,0 +1,46 @@
+.block-flow-bar{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	background-color: #345;
+
+}
+#app_download{
+  padding: 10px 6px;
+
+}
+
+#dl_bg{
+	display: block;
+	float: left;
+	width: 60%;
+}
+#dl_dl{
+  display: block;
+  float: left;
+  width: 30%;
+  padding: 10px 0;
+}
+#dl_dl a{
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ff772c;
+  text-align: center;
+  padding: 10px 6px;
+  border-radius: 18px;
+  color: #ffeab0;
+}
+#dl_close{
+	padding: 10px 0;
+	text-align: center;
+	display: block;
+   float: left;
+   width: 10%;
+   color: #fff;
+   font-size: 160%;
+
+}
